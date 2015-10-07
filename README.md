@@ -27,7 +27,7 @@ $ ./smosh path/to/video/file
 
 **Q:** _AWESOME! But is there a GUI/Non command line version of this available?_
 
-**A:** Unfortunately, No (for the time being). Writing a UI in C++ is non-trivial however the plan is to take this and other effects to [insert app store here] as soon as I can, so consider this an early-early alpha.
+**A:** Unfortunately, No (for the time being). Writing a UI in C++ is non-trivial however the plan is to take this and other effects to [insert app store here] as soon as I can, so consider this an early-stage alpha.
 
 **Q:** _Can this do my laundry for me?_
 
