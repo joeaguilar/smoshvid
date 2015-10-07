@@ -8,10 +8,11 @@
 
 **A:** I am assuming basic knowledge of how to compile C++ programs. Compile with:
 
-         ```
-         $ g++ $(pkg-config --cflags --libs opencv) smoshvid.cpp  -o smosh
-         ```
-Make sure you have the FFMPEG and OpenCv libraries installed in ```/usr/lib/local ```
+```sh
+$ g++ $(pkg-config --cflags --libs opencv) smoshvid.cpp  -o smosh
+```
+
+Make sure you have the FFMPEG and OpenCv libraries installed in `/usr/lib/local `
 This can be achieved with the following command for users with this handy guide: [Install OpenCV](https://www.youtube.com/watch?v=mJWVz3ncRoo) 
 
 _Full disclosure: That is how I did it._
@@ -20,9 +21,9 @@ _Full disclosure: That is how I did it._
 
 **A:** Find your favorite video and run the following:
         
-        ```
-        $ ./smosh path/to/video/file
-	```
+```sh
+$ ./smosh path/to/video/file
+```
 
 **Q:** _AWESOME! But is there a GUI/Non command line version of this available?_
 
