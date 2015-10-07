@@ -12,7 +12,7 @@
 $ g++ $(pkg-config --cflags --libs opencv) smoshvid.cpp  -o smosh
 ```
 
-Make sure you have the FFMPEG and OpenCv libraries installed in `/usr/lib/local `
+Make sure you have the FFMPEG and OpenCv libraries installed in `/usr/lib/local ` and that g++ is updated to at least 4.8.
 This can be achieved with the following command for users with this handy guide: [Install OpenCV](https://www.youtube.com/watch?v=mJWVz3ncRoo) 
 
 _Full disclosure: That is how I did it._
